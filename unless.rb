@@ -3,7 +3,7 @@
 hungry = true
 
 unless hungry
-    puts "I'm writing Ruby programs!"
+  puts "I'm writing Ruby programs!"
 else
-    puts "Time to eat!"
+  puts "Time to eat!"
 end

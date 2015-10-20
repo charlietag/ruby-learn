@@ -4,9 +4,9 @@ puts "what's your age?"
 age = gets.chomp
 age = age.to_i
 if age > 18
-      puts "adult"
+  puts "adult"
 elsif age == 18
-      puts "just adult"
+  puts "just adult"
 else
-      puts "kid"
+  puts "kid"
 end

@@ -8,3 +8,5 @@ puts pets["Name"]
 animals = {} # equals to animals = Hash.new
 animals["Name"] = "Haha"
 puts animals["Name"]
+puts "=============="
+puts animals

@@ -10,18 +10,18 @@ frequences.reverse!
 frequences.each do |x,y|
   puts "#{x}:#{y}"
 end
-frequences = frequences.sort_by do |word,count|
-  count
-end
-puts ""
-
-frequences.each do |x,y|
-  puts "#{x}:#{y}"
-end
-
-puts ""
-frequences.reverse!
-
-frequences.each do |x,y|
-  puts "#{x}:#{y}"
-end
+#frequences = frequences.sort_by do |word,count|
+#  count
+#end
+#puts ""
+#
+#frequences.each do |x,y|
+#  puts "#{x}:#{y}"
+#end
+#
+#puts ""
+#frequences.reverse!
+#
+#frequences.each do |x,y|
+#  puts "#{x}:#{y}"
+#end

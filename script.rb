@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 
-def alphabetize(arr,rev=true)
-    # Do
-    if rev
-        arr.sort!
-    end
-    puts arr
-end
-numbers = [5, 1, 3, 8]
-alphabetize(numbers,false)
+creatures = { "weasels" => 0,
+  "puppies" => 6,
+  "platypuses" => 3,
+  "canaries" => 1,
+  "Heffalumps" => 7,
+  "Tiggers" => 1
+}
+puts creatures['a']

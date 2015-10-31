@@ -1,21 +1,24 @@
 #!/usr/bin/env ruby
 
-var = 'charlie'
-puts var.object_id
+a = 'red'
+b = a.to_sym
+puts a
+puts a.object_id
+puts b
+puts b.object_id
 
-puts var.to_sym.object_id
-puts :charlie.object_id
-puts :var.object_id
+puts b.to_s
+puts b.to_s.object_id
+puts b.to_s
+puts b.to_s.object_id
 
-#strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
-#
-## Add your code below!
-#
-#symbols = Array.new
-#strings.each do |s|
-#    sym = "#{s}".to_sym
-#    puts s
-#    puts sym
-#    #symbols.push(s)
-#end
-##puts symbols
+my_arr = [
+  [:name,"Charlie"],
+  [:age,16]
+]
+puts "===="
+my_arr.each do |sub_a|
+  sub_a.each do |x,y|
+    puts "#{x}:#{y}"
+  end
+end

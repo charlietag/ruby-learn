@@ -16,7 +16,11 @@ class Machine
     puts "#{filename} was created by #{@username} at #{time}."
   end
   
-  def Machine.get_users
+  def get_users
+    @@users
+    #@username
+  end
+  def Machine.get_users #Equal to self.get_users
     @@users
   end
 end
@@ -26,5 +30,6 @@ your_machine = Machine.new("you", 56789)
 
 my_machine.create("groceries.txt")
 your_machine.create("todo.txt")
-
 puts "Users: #{Machine.get_users}"
+puts "Users: #{my_machine.get_users}"
+puts "Users: #{your_machine.get_users}"

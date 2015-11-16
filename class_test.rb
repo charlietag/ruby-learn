@@ -9,8 +9,11 @@ class MyClass
     def display
       puts @my_variable
     end
+    def sub_display
+      self.display
+    end
 end
 
 a = MyClass.new
-a.display
-  
+#a.display
+a.sub_display

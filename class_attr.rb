@@ -2,17 +2,24 @@
 
 #put test script here
 class Person
+  attr_accessor :name
+  attr_accessor :age
   def initialize(name, age)
     @name = name
     @age = age
   end
 
-  public    # This method can be called from outside the class.
-
-  def name=(nickname)
-    puts "I'm #{@name} and I'm #{@age} years old! My nick name is \"#{@name}\""
-  end
+  #def name
+  #  @name
+  #end
+  #
+  #def name=(new_name)
+  #  @name = nickname
+  #end
+    
 end
 
 eric = Person.new("Eric", 26)
-eric.about_me("ha")
+puts eric.name
+eric.name = "ha"
+puts eric.name

@@ -13,7 +13,7 @@ class Computer
     @username
   end
   
-  def self.display_files
+  def Computer.display_files #same as self.display_files
     @@files
   end
 end

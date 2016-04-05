@@ -19,6 +19,8 @@ class Computer
 end
 # Make a new Computer instance:
 hal = Computer.new("Dave", 12345)
+# same as the following
+# hal = Computer.new "Dave", 12345
 
 puts "Current user: #{hal.current_user}"
 # @username belongs to the hal instance.
